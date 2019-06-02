@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Title from './Title.js'
+import List from './List';
 import './App.css';
 
 class App extends Component {
@@ -75,6 +77,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Title />
+        <List features={features}/>
         <header>
           <h1>ELF Computing</h1>
           <h3>Laptops</h3>
