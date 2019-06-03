@@ -80,17 +80,8 @@ class App extends Component {
       <div className="App">
         <Title />
         <List features={features}/>
-        <NewComp />
-        <header>
-          <h1>ELF Computing</h1>
-          <h3>Laptops</h3>
-          <h5>Customize your laptop</h5>  
-        </header>      
+        <NewComp present={this.state.selected}/>
         <main>
-          <section className="main__form">
-            <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-            { features }
-          </section>
           <section className="main__summary">
             <h3>NEW GREENLEAF 2018</h3>
             {summary}

@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function NewComp() {
   return (
     <section className="main__summary">
