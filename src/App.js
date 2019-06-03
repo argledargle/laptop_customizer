@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Title from './Title.js'
+import Title from './Title.js';
 import List from './List';
+import NewComp from './NewComp';
 import './App.css';
 
 class App extends Component {
@@ -79,6 +80,7 @@ class App extends Component {
       <div className="App">
         <Title />
         <List features={features}/>
+        <NewComp />
         <header>
           <h1>ELF Computing</h1>
           <h3>Laptops</h3>
