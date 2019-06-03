@@ -7,5 +7,5 @@ function ListItem(props) {
       </section>
     );
   }
-  
+
   export default ListItem;
